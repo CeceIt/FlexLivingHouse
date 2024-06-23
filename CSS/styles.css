@@ -1,0 +1,363 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+.wrapper {
+   max-width: 1300px;
+   padding-left: 30px;
+   padding-right: 30px;
+
+}
+
+.menu {
+   display: flex;
+   width: 1440px;
+   height: 83px;
+   padding-top: 10px;
+   padding-bottom: 15px;
+   gap: 400PX;
+   background-color: #ffffff;
+
+
+}
+
+.menu ul li {
+   list-style: none;
+   display: inline-block;
+   text-align: right;
+   gap: 10px;
+   color: black;
+
+
+}
+
+.menu a {
+   text-decoration: none;
+   width: 100px;
+   display: block;
+   padding: 10px 10px 10px;
+
+}
+
+.header {
+   display: flex;
+}
+
+.properties {
+   margin-top: 50px;
+   padding-left: 50px;
+}
+
+.rent {
+   padding-top: 30px;
+   width: 395px;
+   height: 150px;
+   top: 223px;
+   border: none;
+   border-radius: 20px;
+   outline: 5px;
+   background-color: #ffffff;
+   position: absolute;
+   top: 30%;
+
+
+}
+
+.couple {
+   width: 1150px;
+   height: 480px;
+   top: 83px;
+}
+
+.future {
+   display: flex;
+   margin-top: 40px;
+   width: 1190px;
+   height: 380px;
+   border: 1px red;
+
+}
+
+.imgwrapper {
+   height: 350px;
+}
+
+.flexible {
+   background-color: rgba(243, 239, 239, 0.938);
+   padding-left: 40px;
+   padding-top: 150px;
+   padding-right: 30px;
+   border-radius: 0 60px 60px 0;
+   text-align: left;
+
+
+
+}
+
+.flexible {
+   font-size: large;
+   width: 400px;
+   padding: 60px;
+
+}
+
+.limg {
+   width: 1100px;
+   height: 300px;
+   padding-top: 40px;
+}
+
+.img2 {
+   display: none;
+}
+
+@media(max-width:768px) {
+
+   .menu .logo {
+      width: 90px;
+      height: 50px;
+   }
+
+   .menu {
+      display: flex;
+      width: 700px;
+      height: 83px;
+      padding-top: 10px;
+      padding-bottom: 15px;
+      gap: 50PX;
+      background-color: #ffffff;
+
+
+   }
+
+   .menu ul li {
+      list-style: none;
+      font-size: large;
+      padding-right: 30px;
+
+
+   }
+
+   .menu a {
+      text-decoration: none;
+      width: 30px;
+      color: black;
+
+   }
+
+   .wrapper {
+      max-width: 768px;
+      padding-left: 1em;
+      padding-right: 2.5rem;
+
+   }
+
+   .couple {
+      width: 700px;
+      height: 250px;
+      top: 60px;
+   }
+
+   .rent {
+      padding-top: 10px;
+      width: 200px;
+      height: 130px;
+      border: none;
+      border-radius: 20px;
+      outline: 5px;
+      background-color: #ffffff;
+      position: absolute;
+      top: 20%;
+
+
+   }
+
+   .future {
+      display: flex;
+      flex-direction: column;
+      margin-top: 40px;
+      width: 700px;
+      height: 300px;
+
+
+   }
+
+
+   .imgwrapper {
+      width: 768px;
+      padding-right: 50px;
+      margin-right: 10px;
+   }
+
+   .rectangle {
+      width: 280px;
+   }
+
+   .woman {
+      width: 280px;
+   }
+
+   .typing {
+      width: 280px;
+   }
+
+   .hands {
+      width: 280px;
+   }
+
+   .flexible {
+      background-color: rgba(243, 239, 239, 0.938);
+      width: 400px;
+      padding-top: 30px;
+      padding-right: 30px;
+      border-radius: 30px 30px;
+      margin-right: 20px;
+      margin-top: 20px;
+      text-align: center;
+
+   }
+
+   .flexible p {
+      padding-bottom: 20px;
+   }
+
+   .limg {
+      width: 33.375rem;
+      height: 290px;
+      padding-top: 45%;
+
+
+
+   }
+
+   .img2 {}
+}
+
+@media(max-width:425px) {
+   body {
+      max-width: 425px;
+   }
+
+   .header {}
+
+   .rent {
+      width: 395px;
+      padding: 20px;
+      height: 120px;
+      border: none;
+      border-radius: 0px, 40px, 40px, 0px;
+      outline: 5px;
+      gap: 20px;
+      background-color: #ffffff;
+
+
+   }
+
+   .rent h1 {
+      font-size: 30px;
+      text-align: justify;
+      font-weight: bolder;
+      padding-bottom: 10px;
+
+
+
+   }
+
+   .rent p {
+      font-size: large;
+      text-align: justify;
+      font-size: medium;
+      padding-bottom: 70%;
+   }
+
+   .couple {
+      width: 400px;
+      height: 730px;
+      top: 64px;
+      gap: 80px;
+      padding-top: 20px;
+      padding-left: 20px;
+
+   }
+
+   .rectangle {
+      width: 200px;
+      height: 200px;
+      padding-left: 10px;
+   }
+
+   .woman {
+      width: 200px;
+      height: 200px;
+   }
+
+   .typing {
+      width: 200px;
+      height: 200px;
+      padding-left: 10px;
+   }
+
+   .hands {
+      width: 200px;
+      height: 200px;
+   }
+
+   .flexible {
+      background-color: rgba(243, 239, 239, 0.938);
+      width: 410px;
+      height: 100px;
+      margin-right: 20%;
+      text-align: center;
+      border: none;
+      font-size: larger;
+      padding-top: 30px;
+      padding-left: 30px;
+      border-radius: 0px, 40px, 40px,  0px;
+      margin-top:55px;
+
+
+
+
+   }
+
+   .flexible p {
+
+      font-size: large;
+      justify-content: center;
+      padding-right: 60px;
+
+   }
+   .flexible h2 {
+
+      font-size: larger;
+      justify-content: center;
+      padding-right: 50px;
+
+   }
+   .future {
+      display: flex;
+      flex-direction: column;
+      padding-left: 1px;
+      padding-right: 30px;
+
+
+
+
+   }
+
+   .limg {
+      display: none;
+   }
+
+
+   .img2 {
+      display: block;
+      height: 5%;
+      width: 360px;
+      padding-top: 350px;
+      padding-left: 50px;
+   }
+
+
+}
